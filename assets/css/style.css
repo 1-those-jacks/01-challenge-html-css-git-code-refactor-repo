@@ -9,17 +9,30 @@ body {
 }
 
 /*removed benefits class and replaced with aside element*/
+/*updated width and height*/
 aside {
 	margin-right: 20px;
-	padding: 20px;
+	padding: 0px;
 	clear: both;
 	float: right;
-	width: 20%;
-	height: 100%;
+	width: 16%;
+	height: 941px;
 	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 	background-color: #2589bd;
 }
 
+a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+p {
+	font-size: 16px;
+}
+/*added h3 styling to change font size*/
+h3 {
+font-size: 15px;
+}
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -47,21 +60,12 @@ aside {
 .header nav ul {
     list-style-type: none;
 /*Updated with margin to fix header spacing between anchors and header*/
-		margin: 5px 5px 5px 700px;
+		margin: 5px 5px 5px 271px;
 }
 
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
-}
-
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-p {
-    font-size: 16px;
 }
 
 .hero {
@@ -73,37 +77,68 @@ p {
     background-position: center;
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
 /*changed from inline-block to inline*/
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-/*deleted extra benefit classes. See HTML line ....*/
-.benefits {
-    margin-right: 32px;
-    color: #ffffff;
-		float: right;
-		clear: both;
-		
+.item {
+	margin-bottom: 20px;
+	padding: 50px;
+/*added height and margin to align side column with main text*/
+	height: 300px;
+	width: 770px;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	background-color: #0072bb;
+	color: #ffffff;
 }
 
+.item img {
+	max-height: 200px;
+}
+.search-engine-optimization h2 {
+margin-bottom: 20px;
+font-size: 36px;
+}
+
+.online-reputation-management h2 {
+margin-bottom: 20px;
+font-size: 36px;
+}
+
+.social-media-marketing h2 {
+margin-bottom: 20px;
+font-size: 36px;
+}
+
+.float-left {
+	float: left;
+	margin-right: 25px;
+}
+
+.float-right {
+	float: right;
+	margin-left: 25px;
+}
+/*deleted extra benefit classes. See HTML line ....*/
+.benefits {
+    color: #ffffff;
+		float: right;
+		clear: both;		
+}
+/*added benefits p style with text-align center*/
+/*added margin*/
+.benefits p {
+	text-align: left;
+	margin-left: 10px;
+}
 .benefit {
-    margin-bottom: 32px;
     color: #ffffff;
 }
 
 /*changed from h3 to h4*/
-.benefit h4 {
+.benefit h3 {
     margin-bottom: 10px;
     text-align: center;
 }
@@ -115,36 +150,6 @@ p {
     max-width: 150px;
 }
 
-.item {
-    margin-bottom: 20px;
-    padding: 50px;
-/*added height and margin to align side column with main text*/
-    height: 300px;
-		width: 1250px;
-		font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.item img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
 .footer {
     padding: 30px;
     clear: both;
@@ -152,6 +157,6 @@ p {
     text-align: center;
 }
 /*changed from h2 to h5*/
-.footer h5 {
+.footer h4 {
     font-size: 20px;
 }
