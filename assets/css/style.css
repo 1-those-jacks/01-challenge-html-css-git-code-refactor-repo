@@ -22,7 +22,6 @@ header {
 
 main {
 	width: 100%;
-	display: flex;
 }
 
 .header h1 {
@@ -34,7 +33,6 @@ main {
 	color: #d9dcd6;
 }
 /*Changed from div to header*/
-/*what does this do? a class for my header doesnt appear anywhere else and has a header styling above*/
 
 /*Changed from div to nav*/
 .header nav ul {
@@ -50,8 +48,8 @@ main {
 }
 
 .header nav ul li a {
-color: #ffffff;
-text-decoration: none;
+	color: #ffffff;
+	text-decoration: none;
 }
 .hero {
 	height: 800px;
@@ -62,27 +60,27 @@ text-decoration: none;
 	background-position: center;
 }
 /*changed from inline-block to inline*/
-.content {
+.services-overview {
 	width: 75%;
 	display: inline-block;
 	margin-left: 20px;
 }
-.item {
+.services {
 	margin-bottom: 20px;
 	padding: 50px;
-/*added height and margin to align side column with main text*/
+/*added height and margin to align aside column with article column*/
 	height: 300px;
-	width: 770px;
+	width: auto;
 	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 	background-color: #0072bb;
 	color: #ffffff;
 }
 
-.item img {
+.services img {
 	max-height: 200px;
 }
 /*cosolidated ids*/
-.item h2 {
+.services h2 {
 	margin-bottom: 20px;
 	font-size: 36px;
 }
@@ -97,14 +95,14 @@ text-decoration: none;
 	margin-left: 25px;
 }
 
-/*deleted extra benefit classes. See HTML line ....*/
+/*deleted extra benefit classes and consolidated into one class*/
 .benefits {
   color: #ffffff;
 	margin-right: 20px;
 	padding: 0px;
 	clear: both;
 	float: right;
-	width: 16%;
+	width: 20%;
 	height: 1000px;
 	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 	background-color: #2589bd;		
@@ -117,15 +115,14 @@ text-decoration: none;
     text-align: center;
 		font-size: 15px;
 }
-/*changed from h3 to h4*/
 
 .benefits img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-/*added benefits p style with text-align center*/
-/*added margin*/
+/*added benefits p style to make text align left*/
+/*added margin to line up with the article section*/
 .benefits p {
 	text-align: left;
 	margin-left: 10px;
