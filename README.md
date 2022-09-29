@@ -80,6 +80,8 @@ Classes were something that when I did an independent dive into, I started to fe
 
 Lessons learned has mainly gone into asking more questions during office hours. I took for granted what I would take to be the criteria for an exercise and that pushed me to make more changes than I think were necessary. I believe I spent more time trying to debug changes that I had made in the CSS file than should have been required. I think a chunk of this is that this is the first assignment and that has contributed to nerves. I understand that this was the assignment after our first week, and we have not covered everything that goes into CSS so to expect perfection out of the gate is unfair on my part. I have definitely grown tired of looking at the same code over the last week and need to focus on new content and new assignments. 
 
+## Deployment
+
 ### Images of the Website
 
 Below are the images from my browser at 100% of the header, body, and footer.
@@ -87,3 +89,7 @@ Below are the images from my browser at 100% of the header, body, and footer.
 ![Header](/assets/images/header-image.PNG)
 ![Body](/assets/images/content-image.PNG)
 ![Footer](/assets/images/footer-image.PNG)
+
+### Website URL
+
+https://1-those-jacks.github.io/01-challenge-html-css-git-code-refactor-repo/
